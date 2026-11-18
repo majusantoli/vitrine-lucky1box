@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lucky1Box | Geek finds (USA)</title>
+<meta name="description" content="Games, collectibles, Harry Potter, Lord of the Rings and Nintendo: the products from the @lucky1box videos, with direct links to Amazon.">
+<meta name="robots" content="index,follow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#161236;--bg2:#241b66;--card:#ffffff;--ink:#1b1740;--mute:#5b5780;--sun:#ffd640;--rose:#e0245e;--line:rgba(255,255,255,.16);--soft:#d9d3ff;--font:"Poppins",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;min-height:100vh;font-family:var(--font);color:#fff;background:radial-gradient(120% 60% at 50% 0%,var(--bg2) 0%,var(--bg) 62%) fixed,var(--bg);padding-left:max(16px,env(safe-area-inset-left));padding-right:max(16px,env(safe-area-inset-right))}
+.wrap{max-width:760px;margin:0 auto;padding-block:20px 40px}
+header{display:flex;align-items:flex-end;gap:6px;justify-content:center;padding-top:8px}
+header img{width:150px;height:auto;display:block;flex:none}
+body::before{content:"";position:fixed;inset:0;z-index:-1;background:url(../pattern.svg) 0 0/240px 240px;opacity:.07;pointer-events:none}
+.bubble{position:relative;background:#fff;color:var(--ink);border:3px solid var(--ink);border-radius:50%/46%;padding:16px 20px;margin-bottom:40px;max-width:230px;text-align:center}
+
+.bubble b{display:block;font-size:20px;line-height:1.15;font-weight:800}
+.bubble span{display:block;margin-top:4px;font-size:13px;font-weight:600;color:#5a4bd6}
+h1{margin:14px 0 4px;text-align:center;font-size:28px;font-weight:800;letter-spacing:-.01em}
+.sub{margin:0 auto;text-align:center;color:var(--soft);font-size:14px;max-width:34ch}
+.aviso{margin:16px auto 0;max-width:46ch;text-align:center;font-size:12px;color:var(--soft);opacity:.9}
+.tools{margin-top:18px}
+.stick{position:sticky;top:0;z-index:5;margin:0 -16px;padding:8px 16px 10px;background:var(--bg);border-bottom:1px solid var(--line)}
+.search{width:100%;height:44px;border-radius:22px;border:2px solid var(--line);background:rgba(255,255,255,.08);color:#fff;font:600 15px var(--font);padding:0 18px}
+.search::placeholder{color:var(--soft);opacity:.8}
+.search:focus{outline:3px solid var(--sun);outline-offset:2px}
+.chips{display:flex;gap:8px;overflow-x:auto;padding:0;scrollbar-width:none}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;border:2px solid var(--line);background:transparent;color:#fff;font:700 13px var(--font);padding:8px 14px;border-radius:20px;cursor:pointer}
+.chip[aria-pressed=true]{background:var(--sun);border-color:var(--sun);color:var(--ink)}
+.chip:focus-visible,.btn:focus-visible{outline:3px solid #fff;outline-offset:2px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:12px}
+@media(min-width:640px){.grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}}
+.card{background:var(--card);color:var(--ink);border-radius:18px;overflow:hidden;display:flex;flex-direction:column;min-width:0}
+.card>a{text-decoration:none;color:inherit;display:block}
+.ico{aspect-ratio:1.3;display:flex;align-items:center;justify-content:center;font-size:58px;background:linear-gradient(135deg,#efeaff,#ffe9f1)}
+.card img{width:100%;height:auto;aspect-ratio:1;object-fit:contain;display:block;background:#fff}
+.info{padding:10px 12px 12px;display:flex;flex-direction:column;gap:8px;flex:1}
+.loja{font-size:11px;font-weight:700;color:var(--mute)}
+.nome{margin:0;font-size:13.5px;line-height:1.3;font-weight:700;flex:1}
+.btn{display:block;text-align:center;text-decoration:none;background:var(--rose);color:#fff;font-weight:800;font-size:14px;padding:11px 8px;border-radius:12px}
+.btn:active{transform:translateY(1px)}
+.vazio{grid-column:1/-1;text-align:center;color:var(--soft);padding:30px 8px;font-size:14px}
+footer{margin-top:28px;text-align:center;font-size:12px;color:var(--soft);line-height:1.6}
+footer a{color:var(--sun);font-weight:700}
+@media(prefers-reduced-motion:no-preference){.btn{transition:transform .1s}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<img src="../char.png" alt="Lucky1Box animated presenter" width="150" height="133">
+<div class="bubble"><b>Found it for you!</b><span>Every video link is here</span></div>
+</header>
+<h1>Lucky1Box</h1>
+<p class="sub">Games, collectibles and geek finds from the TikTok videos.</p>
+<p class="aviso">As an Amazon Associate I earn from qualifying purchases. Links below are affiliate links, at no extra cost to you. Prices and availability change, so check Amazon.</p>
+<div class="tools">
+<input class="search" id="q" type="search" placeholder="Search products" aria-label="Search products" autocomplete="off">
+</div>
+<div class="stick"><div class="chips" id="chips" role="group" aria-label="Filter by theme"></div></div>
+<main class="grid" id="grid" aria-live="polite"></main>
+<footer>
+<div>Follow on TikTok: <a href="https://www.tiktok.com/@lucky1box" rel="noopener">@lucky1box</a> · <a href="../br/">Versão em português</a></div>
+<div>As an Amazon Associate I earn from qualifying purchases. All brands mentioned belong to their owners.</div>
+</footer>
+</div>
+<script>
+let PRODUTOS=[];
+const TEMAS=[["todos","All"],["games","Games"],["setup","Gamer setup"],["nintendo","Nintendo"],["hp","Harry Potter"],["lotr","Lord of the Rings"]];
+let tema="todos";
+const $=s=>document.querySelector(s);
+const norm=t=>t.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
+function chips(){const el=$("#chips");el.innerHTML="";TEMAS.forEach(([k,l])=>{const b=document.createElement("button");b.className="chip";b.type="button";b.textContent=l;b.setAttribute("aria-pressed",String(k===tema));b.onclick=()=>{tema=k;chips();render()};el.appendChild(b)})}
+function render(){
+  const q=norm($("#q").value.trim());const g=$("#grid");g.innerHTML="";
+  const lista=PRODUTOS.filter(p=>(tema==="todos"||p.tags.includes(tema))&&(!q||norm(p.nome).includes(q)));
+  if(!lista.length){g.innerHTML='<div class="vazio">Nothing here. Try another name or theme.</div>';return}
+  lista.forEach(p=>{
+    const c=document.createElement("article");c.className="card";
+    const a=document.createElement("a");a.href=p.url;a.target="_blank";a.rel="sponsored noopener noreferrer";a.setAttribute("aria-label",p.nome);
+    const im=document.createElement("div");im.className="ico";im.setAttribute("aria-hidden","true");im.textContent=p.icon;a.appendChild(im);
+    const i=document.createElement("div");i.className="info";
+    i.innerHTML='<span class="loja"></span><h2 class="nome"></h2>';
+    i.querySelector(".loja").textContent=p.loja;i.querySelector(".nome").textContent=p.nome;
+    const b=document.createElement("a");b.className="btn";b.href=p.url;b.target="_blank";b.rel="sponsored noopener noreferrer";b.textContent="View on Amazon";
+    i.appendChild(b);c.appendChild(a);c.appendChild(i);g.appendChild(c);
+  });
+}
+$("#q").addEventListener("input",render);
+chips();render();
+fetch("products.json",{cache:"no-cache"}).then(r=>r.json()).then(d=>{PRODUTOS=d;render()}).catch(()=>{$("#grid").innerHTML='<div class="vazio">Could not load the products. Please refresh.</div>'});
+</script>
+</body>
+</html>

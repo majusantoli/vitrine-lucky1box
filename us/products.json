@@ -1,0 +1,125 @@
+[
+ {
+  "id": 1,
+  "nome": "Skullcandy Crusher Evo Wireless Multi-Sensory Bass Headphones, True Black",
+  "loja": "Amazon US",
+  "url": "https://link.amazon/B00QtNV7d",
+  "tags": [
+   "setup"
+  ],
+  "icon": "🎧"
+ },
+ {
+  "id": 2,
+  "nome": "Grand Theft Auto VI for PlayStation 5 (code in box, playable 11/19/26)",
+  "loja": "Amazon US",
+  "url": "https://link.amazon/B0hgRMpwO",
+  "tags": [
+   "games"
+  ],
+  "icon": "🎮"
+ },
+ {
+  "id": 3,
+  "nome": "Nintendo Switch with Neon Blue and Neon Red Joy-Con",
+  "loja": "Amazon US",
+  "url": "https://link.amazon/B03STNdNu",
+  "tags": [
+   "games",
+   "nintendo"
+  ],
+  "icon": "🕹️"
+ },
+ {
+  "id": 4,
+  "nome": "Custom Wireless PS5 Controller (Simppson)",
+  "loja": "Amazon US",
+  "url": "https://link.amazon/B07s9Gi0r",
+  "tags": [
+   "games",
+   "setup"
+  ],
+  "icon": "🎮"
+ },
+ {
+  "id": 5,
+  "nome": "Nintendo Switch OLED Model with White Joy-Con",
+  "loja": "Amazon US",
+  "url": "https://link.amazon/B0b3OEiir",
+  "tags": [
+   "games",
+   "nintendo"
+  ],
+  "icon": "🕹️"
+ },
+ {
+  "id": 6,
+  "nome": "Valve Steam Deck OLED 512GB Handheld Gaming Console",
+  "loja": "Amazon US",
+  "url": "https://link.amazon/B0hUcbOuw",
+  "tags": [
+   "games"
+  ],
+  "icon": "💻"
+ },
+ {
+  "id": 7,
+  "nome": "Harry Potter Fan Wooden Spoons, 6-Piece Cooking Utensil Set",
+  "loja": "Amazon US",
+  "url": "https://link.amazon/B0d8coupR",
+  "tags": [
+   "hp"
+  ],
+  "icon": "🥄"
+ },
+ {
+  "id": 8,
+  "nome": "Scentsy Harry Potter Buddy + Wizarding World Scent Pak",
+  "loja": "Amazon US",
+  "url": "https://link.amazon/B0g5v1hEn",
+  "tags": [
+   "hp"
+  ],
+  "icon": "🕯️"
+ },
+ {
+  "id": 9,
+  "nome": "Harry Potter Hogwarts Houses Holiday Christmas Sweater (Licensed)",
+  "loja": "Amazon US",
+  "url": "https://link.amazon/B08OAEYaD",
+  "tags": [
+   "hp"
+  ],
+  "icon": "🧣"
+ },
+ {
+  "id": 10,
+  "nome": "Lord of the Rings Sword Lamp, Collector Edition (Grupo Erik)",
+  "loja": "Amazon US",
+  "url": "https://link.amazon/B0cRvUHqC",
+  "tags": [
+   "lotr"
+  ],
+  "icon": "🗡️"
+ },
+ {
+  "id": 11,
+  "nome": "Lord of the Rings Lamp, Collector Edition",
+  "loja": "Amazon US",
+  "url": "https://link.amazon/B07y8tlcY",
+  "tags": [
+   "lotr"
+  ],
+  "icon": "💡"
+ },
+ {
+  "id": 12,
+  "nome": "Lord of the Rings Bookends (Grupo Erik, Licensed)",
+  "loja": "Amazon US",
+  "url": "https://link.amazon/B099UhKp1",
+  "tags": [
+   "lotr"
+  ],
+  "icon": "📚"
+ }
+]
