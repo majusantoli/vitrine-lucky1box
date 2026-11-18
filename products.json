@@ -1,0 +1,257 @@
+[
+ {
+  "img": "img/ps5-slim-digital.jpg",
+  "nome": "PS5 Slim Digital + Astro Bot e GT7",
+  "loja": "Mercado Livre",
+  "url": "https://meli.la/2a2MWwz",
+  "tags": [
+   "games"
+  ],
+  "id": 1
+ },
+ {
+  "img": "img/dualsense-pearl.jpg",
+  "nome": "Controle DualSense Chroma Pearl",
+  "loja": "Mercado Livre",
+  "url": "https://meli.la/29GcGCV",
+  "tags": [
+   "games"
+  ],
+  "id": 2
+ },
+ {
+  "img": "img/dualsense-branco-preto.jpg",
+  "nome": "Controle DualSense branco e preto",
+  "loja": "Mercado Livre",
+  "url": "https://meli.la/27zHFb9",
+  "tags": [
+   "games"
+  ],
+  "id": 3
+ },
+ {
+  "img": "img/switch-oled-64gb.jpg",
+  "nome": "Switch OLED 64GB + Mario Bros Wonder",
+  "loja": "Mercado Livre",
+  "url": "https://meli.la/1GWANXQ",
+  "tags": [
+   "games",
+   "nintendo"
+  ],
+  "id": 4
+ },
+ {
+  "img": "img/switch-mariokart.jpg",
+  "nome": "Switch OLED + Mario Kart 8 Deluxe",
+  "loja": "Mercado Livre",
+  "url": "https://meli.la/1wuBVUA",
+  "tags": [
+   "games",
+   "nintendo"
+  ],
+  "id": 5
+ },
+ {
+  "img": "img/funko-balrog.jpg",
+  "nome": "Funko Pop Balrog #448",
+  "loja": "Mercado Livre",
+  "url": "https://meli.la/2SGrg9q",
+  "tags": [
+   "lotr"
+  ],
+  "id": 6
+ },
+ {
+  "img": "img/funko-gimli.jpg",
+  "nome": "Funko Pop Gimli #629",
+  "loja": "Mercado Livre",
+  "url": "https://meli.la/2vAKHQr",
+  "tags": [
+   "lotr"
+  ],
+  "id": 7
+ },
+ {
+  "img": "img/funko-aragorn.jpg",
+  "nome": "Funko Pop Aragorn #531",
+  "loja": "Mercado Livre",
+  "url": "https://meli.la/2KAVjbs",
+  "tags": [
+   "lotr"
+  ],
+  "id": 8
+ },
+ {
+  "img": "img/funko-town-elrond.jpg",
+  "nome": "Funko Pop Town Elrond e Rivendell",
+  "loja": "Mercado Livre",
+  "url": "https://meli.la/2dK966w",
+  "tags": [
+   "lotr"
+  ],
+  "id": 9
+ },
+ {
+  "img": "img/lego-edwiges.jpg",
+  "nome": "LEGO Edwiges, Ícones de Hogwarts (76391)",
+  "loja": "Mercado Livre",
+  "url": "https://meli.la/2zTXoFq",
+  "tags": [
+   "hp"
+  ],
+  "id": 10
+ },
+ {
+  "img": "img/lego-hogwarts-emblema.jpg",
+  "nome": "LEGO Emblema da Casa Hogwarts (76462)",
+  "loja": "Mercado Livre",
+  "url": "https://meli.la/2JgpLxF",
+  "tags": [
+   "hp"
+  ],
+  "id": 11
+ },
+ {
+  "img": "img/shopee-headset-havit.jpg",
+  "nome": "Headset gamer HAVIT H2232d",
+  "loja": "Shopee",
+  "url": "https://s.shopee.com.br/9zzOO4qae5",
+  "tags": [
+   "setup"
+  ],
+  "id": 12
+ },
+ {
+  "img": "img/shopee-headset-multiplataforma.jpg",
+  "nome": "Headset gamer branco LED RGB",
+  "loja": "Shopee",
+  "url": "https://s.shopee.com.br/1C2Tmqy7d",
+  "tags": [
+   "setup",
+   "games"
+  ],
+  "id": 13
+ },
+ {
+  "img": "img/shopee-mouse-mancer-lead-c1.jpg",
+  "nome": "Mouse gamer Mancer Lead C1",
+  "loja": "Shopee",
+  "url": "https://s.shopee.com.br/5VWz2sbqOj",
+  "tags": [
+   "setup"
+  ],
+  "id": 14
+ },
+ {
+  "img": "img/shopee-mouse-minimalista.jpg",
+  "nome": "Mouse RGB ergonômico minimalista",
+  "loja": "Shopee",
+  "url": "https://s.shopee.com.br/1qdgfOMOsL",
+  "tags": [
+   "setup"
+  ],
+  "id": 15
+ },
+ {
+  "img": "img/shein-sheglam-paleta-monster-book.jpg",
+  "nome": "Paleta Monster Book, HP x SHEGLAM",
+  "loja": "Shein",
+  "url": "https://onelink.shein.com/61/68jnjhp2w6t2?ismg_ol=9SLV8isLygz_01_KOC-C",
+  "tags": [
+   "hp"
+  ],
+  "id": 16
+ },
+ {
+  "img": "img/shein-pijama-hp.jpg",
+  "nome": "Pijama Harry Potter 2 peças",
+  "loja": "Shein",
+  "url": "https://onelink.shein.com/61/68jnhgoxbeq0?ismg_ol=7LQwqEtrOZo_01_KOC-C",
+  "tags": [
+   "hp"
+  ],
+  "id": 17
+ },
+ {
+  "img": "img/shein-caneca-hp.jpg",
+  "nome": "Caneca Harry Potter, bolo de aniversário",
+  "loja": "Shein",
+  "url": "https://onelink.shein.com/61/68jnlcs4q1vy?ismg_ol=GHaVhzHbT6V_01_KOC-C",
+  "tags": [
+   "hp"
+  ],
+  "id": 18
+ },
+ {
+  "img": "img/shein-sheglam-full-collection.jpg",
+  "nome": "Coleção completa HP x SHEGLAM",
+  "loja": "Shein",
+  "url": "https://onelink.shein.com/61/68jnol6ydzrs?ismg_ol=F0QbRhAtCoL_01_KOC-C",
+  "tags": [
+   "hp"
+  ],
+  "id": 19
+ },
+ {
+  "img": "img/shein-bolsa-plataforma.jpg",
+  "nome": "Bolsa Plataforma 9 3/4, Harry Potter x SHEIN",
+  "loja": "Shein",
+  "url": "https://onelink.shein.com/61/68jnq4ftqjys?ismg_ol=JDwyOztcPlb_01_KOC-C",
+  "tags": [
+   "hp"
+  ],
+  "id": 20
+ },
+ {
+  "img": "img/shein-zelda-aquario.jpg",
+  "nome": "Decoração de aquário Zelda",
+  "loja": "Shein",
+  "url": "https://onelink.shein.com/61/68jnr7wfsmkh?ismg_ol=EZGDbpUprtZ_01_KOC-C",
+  "tags": [
+   "nintendo"
+  ],
+  "id": 21
+ },
+ {
+  "img": "img/shein-controle-pro-zelda-totk.jpg",
+  "nome": "Controle Pro Zelda Tears of the Kingdom",
+  "loja": "Shein",
+  "url": "https://onelink.shein.com/61/68jns1hw1zx2?ismg_ol=FWMqMa0rQr2_01_KOC-C",
+  "tags": [
+   "games",
+   "nintendo"
+  ],
+  "id": 22
+ },
+ {
+  "img": "img/shein-controle-switch-zelda.jpg",
+  "nome": "Controle Switch sem fio tema Zelda",
+  "loja": "Shein",
+  "url": "https://onelink.shein.com/61/68jnsha4yfpz?ismg_ol=FjG2qrMwBQm_01_KOC-C",
+  "tags": [
+   "games",
+   "nintendo"
+  ],
+  "id": 23
+ },
+ {
+  "img": "img/shein-planta-piranha.jpg",
+  "nome": "Planta Piranha, Super Mario World",
+  "loja": "Shein",
+  "url": "https://onelink.shein.com/61/68jnu2i1ms1i?ismg_ol=5xXVxbUzwvR_01_KOC-C",
+  "tags": [
+   "nintendo"
+  ],
+  "id": 24
+ },
+ {
+  "img": "img/shein-mini-figura-mario.jpg",
+  "nome": "Mini figura Mario, Super Mario World",
+  "loja": "Shein",
+  "url": "https://onelink.shein.com/61/68jnv5yo3loi?ismg_ol=IcbMD5ZcP83_01_KOC-C",
+  "tags": [
+   "nintendo"
+  ],
+  "id": 25
+ }
+]
