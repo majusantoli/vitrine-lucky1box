@@ -40,7 +40,8 @@ h1{margin:14px 0 4px;text-align:center;font-size:28px;font-weight:800;letter-spa
 .card{background:var(--card);color:var(--ink);border-radius:18px;overflow:hidden;display:flex;flex-direction:column;min-width:0}
 .card>a{text-decoration:none;color:inherit;display:block}
 .ico[data-t=games]{background:linear-gradient(135deg,#e9e2ff,#c9b8ff)}.ico[data-t=nintendo]{background:linear-gradient(135deg,#ffe3e3,#ffb3b3)}.ico[data-t=hp]{background:linear-gradient(135deg,#fff3cf,#f3d37a)}.ico[data-t=lotr]{background:linear-gradient(135deg,#dff2dc,#a9d3a0)}.ico[data-t=setup]{background:linear-gradient(135deg,#dff0ff,#a9cdf5)}
-.ico{aspect-ratio:1.3;display:flex;align-items:center;justify-content:center;font-size:58px;background:linear-gradient(135deg,#efeaff,#ffe9f1)}
+.ico{position:relative;overflow:hidden;aspect-ratio:1.3;display:flex;align-items:center;justify-content:flex-end;padding-right:16px;font-size:54px;background:linear-gradient(135deg,#efeaff,#ffe9f1)}
+.card .ico img{position:absolute;left:4px;bottom:0;height:100%;width:auto;max-width:55%;aspect-ratio:auto;object-fit:contain;object-position:left bottom;background:none}
 .card img{width:100%;height:auto;aspect-ratio:1;object-fit:contain;display:block;background:#fff}
 .info{padding:10px 12px 12px;display:flex;flex-direction:column;gap:8px;flex:1}
 .loja{font-size:11px;font-weight:700;color:var(--mute)}
@@ -86,7 +87,7 @@ function render(){
   lista.forEach(p=>{
     const c=document.createElement("article");c.className="card";
     const a=document.createElement("a");a.href=p.url;a.target="_blank";a.rel="sponsored noopener noreferrer";a.setAttribute("aria-label",p.nome);
-    const im=document.createElement("div");im.className="ico";im.dataset.t=p.tags[p.tags.length>1&&p.tags.includes("nintendo")?p.tags.indexOf("nintendo"):0];im.setAttribute("aria-hidden","true");im.textContent=p.icon;a.appendChild(im);
+    const im=document.createElement("div");im.className="ico";im.dataset.t=p.tags[p.tags.length>1&&p.tags.includes("nintendo")?p.tags.indexOf("nintendo"):0];im.setAttribute("aria-hidden","true");const t=im.dataset.t;im.textContent=p.icon;const ch=document.createElement("img");ch.src="chars/"+t+".png";ch.alt="";ch.loading="lazy";im.prepend(ch);a.appendChild(im);
     const i=document.createElement("div");i.className="info";
     i.innerHTML='<span class="loja"></span><h2 class="nome"></h2>';
     i.querySelector(".loja").textContent=p.loja;i.querySelector(".nome").textContent=p.nome;
